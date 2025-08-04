@@ -1,0 +1,13 @@
+{
+  "functions": {
+    "api/solve.py": {
+      "runtime": "@vercel/python@1.0.0"
+    }
+  },
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/api/solve.py"
+    }
+  ]
+}
