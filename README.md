@@ -5,7 +5,7 @@ API that returns kociemba two-phase algorithm solution for a Rubix Cube. Used fo
 
 {urlwhenihost.domain}/solve/{cubeposition}
 
-returns:
+returns:  
 {  
   "solution": "D2 R' D' F2 B D R2 D2 R' F2 D' F2 U' B2 L2 U2 D R2 U"  
 }  
