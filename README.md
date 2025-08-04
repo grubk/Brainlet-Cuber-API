@@ -1,9 +1,11 @@
 ### Info
-API that returns kociemba two-phase algorithm solution for a Rubix Cube. Used for Brainlet project.
+Hosted an API using kociemba two-phase algorithm solution for a Rubix Cube. Returns solution in .json format. Used for Brainlet project.
+
+---
 
 ### Usage
 
-{urlwhenihost.domain}/solve/{cubeposition}
+https://brainlet-cuber-api.vercel.app/solve/{cubeposition}
 
 returns:  
 {  
@@ -11,3 +13,11 @@ returns:
 }  
 
 in json format.
+
+---
+
+### Info on cube positions
+Can be found [here](https://pypi.org/project/kociemba/). Cube algorithm can also be found here.
+
+
+
